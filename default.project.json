@@ -5,6 +5,12 @@
     "ReplicatedStorage": {
       "Shared": {
         "$path": "src/shared"
+      },
+      "Remotes": {
+        "$className": "Folder",
+        "BridgeProgress": {
+          "$className": "RemoteEvent"
+        }
       }
     },
     "ServerScriptService": {
